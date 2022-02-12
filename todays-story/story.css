@@ -1,0 +1,46 @@
+body{margin: 0;padding: 0;
+text-transform: capitalize;}
+.main .nav{padding: 10px;
+display: flex;
+color: cyan;
+background-color: rgb(19, 19, 19);}
+.right a{
+color: white;
+text-decoration: none;}
+.right{right: 1rem;
+position: absolute;}
+
+
+
+
+
+
+.poster{background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit);
+    width: 90%;
+    height: 10rem;
+    left: 5%;
+    margin-top: 4%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 50px 0 black;
+    color: rgb(0, 0, 0);text-align: center;}
+    .poster .hyper_nav{margin-top: 30px;
+    background: rgba(0, 0, 0, 0.062);}
+    .poster .hyper_nav a{color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Comforter', cursive;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.4s;
+    }
+    .poster .hyper_nav a:hover{color: rgb(181, 198, 252);}
+    .poster .para{
+        margin-top: 20px;
+        font-size: 40px;
+    
+    }
+    .poster .para span{font-family: 'Bebas Neue', cursive;
+    }

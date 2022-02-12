@@ -1,0 +1,54 @@
+
+body{text-transform: capitalize;
+display: flex;
+margin: 0;padding: 0;}
+.main{padding: 50px;
+  
+  background: #136a8a;
+  background: 
+    -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: 
+    linear-gradient(to right, #267871, #136a8a);
+ /* margin-left: 40%;
+  margin-top: 30%;*/
+  margin: auto;
+  margin-top: 15%;
+  box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+.main span.big{display: flex;
+margin-bottom: 1rem;
+font-size: 2rem;
+text-align: center;
+color: white;}
+span.two{color: rgb(100, 26, 26);
+font-size: 1.5rem;}
+span.three{display: flex;
+font-size: 1.4rem;
+text-align: center;
+margin-top: 1rem;
+margin-left: 25%;}
+span.three a{text-decoration: none;
+color: white;
+padding: 10px 20px;
+}
+span.three a:hover{color:skyblue;
+transition: 0.4s;}
+.aherf a{
+  border: 2px solid black;
+padding: 10px 20px ;
+text-decoration: none;
+color: white;
+position: absolute;
+top: 0;
+left: 0;
+background: #000;
+border-radius:0 20px 20px 0;
+}
+
+.aherf a:hover{color: red;
+padding: 10px 30px;
+transition: 0.5s;}
