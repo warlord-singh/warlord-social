@@ -28,9 +28,10 @@ position: absolute;}
     color: rgb(0, 0, 0);text-align: center;}
     .poster .hyper_nav{margin-top: 30px;
     background: rgba(0, 0, 0, 0.062);
-display:none;}
+display: none;}
     .poster .hyper_nav a{color: rgb(0, 0, 0);
     text-decoration: none;
+        display: none;
     font-family: 'Comforter', cursive;
     font-size: 20px;
     margin-left: 10px;
