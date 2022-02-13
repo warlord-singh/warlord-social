@@ -18,6 +18,8 @@ body{
 .nav-bar{margin-top: -0.2rem;
 height: 2rem;
 width: 100%;
+    
+    overflow:hidden;
 
 background: rgb(54, 53, 53);}
  .left a{text-align: center;
@@ -35,6 +37,16 @@ margin-left: 25%;}
     position:relative;
     margin-right: auto;
     box-shadow: 0 5px 50px 0 rgba(255, 255, 255, 0.171);
+    
+    
+    
+     overflow: hidden;
+  
+    
+    
+    
+    
+    
 }
 .img-bg .cover{width: 75%;
     text-align: center;
@@ -138,7 +150,7 @@ border:2px solid white;}
 
 @media (max-width:450px) and (min-width:260px) {
 
-
+    body{overflow:hidden !important;}
 
 
 
@@ -244,7 +256,7 @@ a.icon{display: block;
 @media (max-width: 325px) and (min-width:20px){
 
 
-
+ body{overflow:hidden !important;}
   
 
 .nav-bar{margin-top: -0.2rem;
@@ -314,7 +326,7 @@ margin-right: auto;}
 
 @media (max-width: 375px ) and (min-width:300px){
 
-
+ body{overflow:hidden !important;}
   .nav-bar{margin-top: -0.2rem;
     height: 2rem;
     width: 110% !important;
@@ -387,6 +399,8 @@ margin-right: auto;}
 
 
    @media (max-width: 600px) and (min-width:360px){
+       
+        body{overflow:hidden !important;}
      
      .wrapping-text{display: inline-flex;
       margin-left: auto;
@@ -557,6 +571,9 @@ transition: 0.4s;}
 
 @media (max-width:768px) and (min-width:400px){
 
+     body{overflow:hidden !important;}
+    
+    
   .nav-bar{margin-top: -0.2rem;
     height: 2rem;
     width: 110%;
