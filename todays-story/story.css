@@ -49,6 +49,7 @@ display: none;}
 span h2{}
 span p{}
 @media (max-width:425px) {
-        span h2{font-size: 2rem;
-      span p{font-size: 1.2rem ;
+    span p{font-size: 1.2rem;}
+    span h2{font-size: 2rem;}
+    
     }
