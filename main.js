@@ -12,29 +12,22 @@ let letter = '';
     currentText = texts[count];
     letter = currentText.slice(0,++index);
     
-    document.querySelector('.moving-text').textContent = letter;
+    document.querySelector('.typing').textContent = letter;
     if(letter.length === currentText.length){
         count++;
         index = 0;
     }
-    
-setTimeout(type, 400 );
+    setTimeout(type, 400 );
 
 }());
 
 
-//const toggle = document.getElementsByID(icon)[0]
-//const navbarlinks = document.getElementsByID(buttons)[0] 
-//
-//toggle.addEventListner('click', () => {
- //   navbarlinks.classList.toggle('active')
-//})
 
-
-
-
-
-
-
-
-
+function myFunction() {
+    var x = document.getElementById("links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
